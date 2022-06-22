@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&family=Potta+One&family=Water+Brush&display=swap');
+
+* { box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(assets/abstract-1973382_1920.jpg); /*Image by Prawny from Pixabay* */
+    font-family: 'IBM Plex Sans Arabic';
+}
+.frame {
+    background-color: #fff;
+    top: 5%;
+    left: 3%;
+    right: 3%;
+    bottom: 2%;
+    position: absolute;
+}
+.brand {
+    padding: 1% 0% 0% 1%;
+    font-family: 'Potta One';
+    /* font-family: 'Water Brush'; */
+}
+ul {
+    display: flex;
+    justify-content: right;
+    gap: 2%;
+    margin: -2.5% 2% 1.2% 0%;
+    list-style: none;
+}
+li a {
+    text-decoration: none;
+    color: #000;
+}
+.content {
+    padding: 2%;
+    text-align: center;
+    font-family: 'Water Brush';
+}
+.content h4 {
+    font-family: 'IBM Plex Sans Arabic';
+}
+.innerframe {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem 0rem;
+    padding: 3rem 2rem 0rem 2rem;
+    left: 3%;
+    position: relative;
+}
+.topleft {
+    background-color: bisque;
+    /* background: url(assets/NAME\ PLAQUE.PNG) top left 10%; */
+    /* overflow: hidden; */
+    height: 27vh;
+    width: 80%;
+}
+.topright {
+    background-color: rgb(99, 211, 211);
+    height: 25vh;
+    width: 80%;
+}
+.top {
+    background-color: rgb(21, 37, 37);
+    height: 25vh;
+    width: 80%;
+}
+.bottom{
+    background-color: rgb(46, 6, 19);
+    height: 25vh;
+    width: 80%;
+}
+.bottomleft {
+    background-color: rgb(8, 143, 15);
+    height: 25vh;
+    width: 80%;
+}
+.bottomright {
+    background-color: greenyellow;
+    height: 25vh;
+    width: 80%;
+}
+
+
+/* @media screen and (max-width:420px) {
+    .innerframe {
+        display: block;
+        padding: 3rem 2rem 0rem 2rem;
+        left: 10%;
+        position: relative;
+    }
+    .topleft, .topright , .bottomleft , .bottomright , .top , .bottom {
+        margin-bottom: 3%;
+    }
+    .frame {
+        background-color: #fff;
+        top: 5%;
+        left: 3%;
+        right: 3%;
+        bottom: 3%;
+        position: absolute;
+        height: 189vh;
+    }
+/* } */
