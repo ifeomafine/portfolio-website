@@ -19,10 +19,10 @@ body {
 .frame {
     background-color: #fff;
     /* background-color: #000; */
-    top: 5%;
+    top: 2%;
     left: 3%;
     right: 3%;
-    bottom: 5%;
+    bottom: 2%;
     position: absolute;
     overflow: hidden;
     /* color: #fff; */
@@ -65,8 +65,6 @@ li a {
     position: absolute;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    /* color: #000; */
-    /* text-shadow: 2px 1px #fff; */
     color: #fff;
     font-size: 16px;
     padding: 12px 24px;
@@ -89,7 +87,7 @@ li a {
     left: 47%;
   }
 .top .btn {
-    background-color: rgb(21, 37, 37);
+    background-color: #F391BC;
     top: 83%;
     left: 47%;
   }
@@ -115,7 +113,7 @@ li a {
     background-color: rgb(25, 88, 88);
   }
   .top .btn:hover {
-    background-color: rgb(6, 66, 66);
+    background-color: #d12972;
   }
   .bottom .btn:hover {
     background-color: rgb(100, 9, 38);
@@ -134,49 +132,55 @@ li a {
     overflow: hidden;
     border-top-left-radius: 25px;
     border-bottom-right-radius: 15px;
+    box-shadow: 2px 5px 2px 1px gray;
 }
 img {
    opacity: 0.1;
 }
 .topright {
     background-color: rgb(99, 211, 211);
-    height: 25vh;
+    height: 27vh;
     width: 80%;
     overflow: hidden;
     border-top-left-radius: 25px;
     border-bottom-right-radius: 15px;
+    box-shadow: 2px 5px 2px 1px gray;
 }
 .top {
-    background-color: rgb(21, 37, 37);
-    height: 25vh;
+    background-color: #F391BC;
+    height: 27vh;
     width: 80%;
     overflow: hidden;
     border-top-left-radius: 25px;
     border-bottom-right-radius: 15px;
+    box-shadow: 2px 5px 2px 1px gray;
 }
 .bottom{
     background-color: rgb(46, 6, 19);
-    height: 25vh;
+    height: 27vh;
     width: 80%;
     overflow: hidden;
     border-top-left-radius: 25px;
     border-bottom-right-radius: 15px;
+    box-shadow: 2px 5px 2px 1px gray;
 }
 .bottomleft {
     background-color: rgb(8, 143, 15);
-    height: 25vh;
+    height: 27vh;
     width: 80%;
     overflow: hidden;
     border-top-left-radius: 25px;
     border-bottom-right-radius: 15px;
+    box-shadow: 2px 5px 2px 1px gray;
 }
 .bottomright {
     background-color: rgb(125, 184, 15);
-    height: 25vh;
+    height: 27vh;
     width: 80%;
     overflow: hidden;
     border-top-left-radius: 25px;
     border-bottom-right-radius: 15px;
+    box-shadow: 2px 5px 2px 1px gray;
 }
 
 /* FOR DARK/LIGHT MODE */
