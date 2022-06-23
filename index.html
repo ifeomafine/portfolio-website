@@ -12,11 +12,24 @@
 <body>
     <div class="frame">
         <h2 class="brand">Miss Fine</h2>
-        <nav>
+        <div class="buttons"><label class="switch">
+            <input id="toggle" type="checkbox">
+            <div class="slider round"></div>
+          </label></div>
+        <div class="right-nav">
+            <!--Start of responsive menu section -->
+            <a href="#" class="toggle-button">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </a>
+            <!-- End of responsive menu section -->
+        </div>
+        <nav class="nav">
             <ul>
                 <li><a href="https://github.com/ifeomafine" target="_blank">GITHUB</a></li>
-                <li>ABOUT</li>
-                <li>CONTACT ME</li>
+                <li><a href="#">ABOUT</a></li>
+                <li> <a href="https://www.linkedin.com/in/ifeoma-fine-ukpabi-ba8069130/" target="_blank">CONTACT ME</a></li>
             </ul>
         </nav>
         <div class="content">
@@ -24,15 +37,58 @@
             <h4>A Creative Freelancer and Front-End Developer</h4>
         </div>
         <div class="innerframe">
+
             <div class="topleft">
-             <!-- <a href="https://ifeomafine.github.io/td-project5-name-plaque-ui/">NAME PLAQUE</a> -->
+                <img src="assets/project1.PNG" width="352" height="200"  alt="">
+             <a class="btn" href="https://ifeomafine.github.io/td-project5-name-plaque-ui/">NAME PLAQUE</a>
             </div>
-            <div class="topright"></div>
-            <div class="bottomleft"></div>
-            <div class="bottomright"></div>
-            <div class="top"></div>
-            <div class="bottom"></div>
+            <div class="topright">
+                <img src="assets/project1.PNG" width="352" height="200"  alt="">
+                <a class="btn" href="https://ifeomafine.github.io/td-project5-name-plaque-ui/">NAME PLAQUE</a>
+            </div>
+            <div class="bottomleft">
+                <img src="assets/project1.PNG" width="352" height="200"  alt="">
+                <a class="btn" href="https://ifeomafine.github.io/td-project5-name-plaque-ui/">NAME PLAQUE</a>
+            </div>
+            <div class="bottomright">
+                <img src="assets/project1.PNG" width="352" height="200"  alt="">
+                <a class="btn" href="https://ifeomafine.github.io/td-project5-name-plaque-ui/">NAME PLAQUE</a>
+            </div>
+            <div class="top">
+                <img src="assets/project1.PNG" width="352" height="200"  alt="">
+                <a class="btn" href="https://ifeomafine.github.io/td-project5-name-plaque-ui/">NAME PLAQUE</a>
+            </div>
+            <div class="bottom">
+                <img src="assets/project1.PNG" width="352" height="200"  alt="">
+                <a class="btn" href="https://ifeomafine.github.io/td-project5-name-plaque-ui/">NAME PLAQUE</a>
+            </div>
+
         </div>
+    </div>
+
+    
+    <!-- Modal Sign In Button -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="close"> &times;</div>
+      <form class="sign-in" action="#">
+          <h4>SIGN IN</h4>
+          <input type="email" class="input" name="" id="" placeholder="Email Address" required>
+          <br><small class="small"></small>
+          <br>
+          <input type="password" class="input" name="" id="passy" placeholder="Password" required>
+          <small></small>
+          <h5>&nbsp;<input class="showPassy" type="checkbox" name="" id="checkBox"> &nbsp; Show Password</h5>
+          <br>
+          <button class="oyaBtn" type="submit">Sign In</button>
+          <br> <br>
+          <a href="#">Forgot Password</a> 
+          <br>  <br>
+          <h6>New here? &nbsp; <a href="signup.html">Create Profile</a> </h6>
+          
+      </form>
     </div>
 
     <script src="script.js"></script>
